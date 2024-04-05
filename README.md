@@ -1,0 +1,2 @@
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()local Window = OrionLib:MakeWindow({Name = "蓝精灵猫出品 必属精品", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})local Tab = Window:MakeTab({	Name = "doors",	Icon = "rbxassetid://4483345998",	PremiumOnly = false})local Section = Tab:AddSection({	Name = "DOORSmode"})Tab:AddButton({	Name = "不可能模式",	Callback = function()	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ukazix/impossible-mode/main/Protected_79.lua.txt'))()
